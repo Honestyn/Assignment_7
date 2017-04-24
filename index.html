@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment7</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+   <script>
+    $(document).ready(function(){
+    $("button").click(function(){
+    $("p").slideToggle();
+    });
+    });
+
+    $(document).ready(function(){
+        $("li").click(function(){
+            $(this).addClass('highlight');
+        });
+    });
+
+    $(document).ready(function(){
+        $("h1").click(function(){
+            $(this).addClass('highlight2');
+        });
+    });
+
+    $(document).ready(function(){
+        $("h3").click(function(){
+            $(this).addClass('highlight4');
+        });
+    });
+
+    $(document).ready(function(){
+        $("h5").click(function(){
+            $(this).addClass('highlight3');
+        });
+    });
+    </script>
+
+</head>
+<style>
+
+    .highlight{
+        background-color: blue;
+    }
+
+    .highlight2{
+        background-color:green;
+    }
+
+    .highlight3{
+        background-color:blue;
+    }
+
+    .highlight4{
+        background-color:yellow;
+    }
+</style>
+
+
+<body>
+
+
+<h1>Why is Spelman the #1 HBCU</h1>
+
+<p>Spelman College is the number one hbcu in America for a plethora of reasons. The academic policies that exists within the Spelman learning communities births outstanding academic scholars. Spelmanites are encouraged to explore all their academic passsions through clubs and activities. Spelman fosters a sisterhood among students, by showing the importance of positive friendships that build one another up. Spelman offers students a festive and interactive social life, by hosting fun events such as homecoming and pageants.</p>
+<button>Hide Paragraphs</button>
+<ul>
+    <li>Founders Day</li>
+    <li>Homecoming : Hip Hip Concert</li>
+    <li>Homecoming : Tailgate</li>
+</ul>
+
+<h3>
+    Why is Computer Science a great major?
+</h3>
+
+<h5>Computer Science is a an awesome major, because it introduces students to the emerging field of technology. Computer Science allows students to solve problems creatively and uniquely. </h5>
+
+
+
+
+
+
+</body>
+</html>
